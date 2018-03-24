@@ -65,7 +65,7 @@
                     </options>
                     <outjar>${project.build.finalName}-pg</outjar>
                     <libs>
-                        <lib>${java.home}/lib/rt.jar</lib>
+                        <!-- <lib>${java.home}/lib/rt.jar</lib> -->
                     </libs>
 
                 </configuration>

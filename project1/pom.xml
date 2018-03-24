@@ -14,6 +14,8 @@
             <artifactId>project2</artifactId>
             <classifier>pg</classifier> <!--如果不想依赖混淆的包，请注释掉该行-->
             <version>1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/pg.jar</systemPath>
         </dependency>
     </dependencies>
 
